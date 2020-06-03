@@ -1,0 +1,35 @@
+{
+  "name": "@dword-design/github-latest-release",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "dword-design/github-latest-release",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@dword-design.de>",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "commit": "base commit",
+    "dev": "base dev",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
+    "test": "base test"
+  },
+  "dependencies": {
+    "@dword-design/functions": "^1.1.2",
+    "@dword-design/github-web-extension-utils": "^1.1.0",
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^6.15.0",
+    "@dword-design/base-config-web-extension": "^1.6.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "baseConfig": {
+    "name": "web-extension",
+    "startUrl": "https://github.com/dword-design/base"
+  }
+}
