@@ -29,9 +29,9 @@ const run = async () => {
         ...(token && { headers: { Authorization: `token ${token}` } }),
       })
       |> await
-      |> property('data.name')
+      |> property('data.tag_name')
 
-    let $latestRelease = $headline.querySelector('github-latest-release')
+    let $latestRelease = $headline.querySelector('.github-latest-release')
     if ($latestRelease) {
       $latestRelease.remove()
     }
