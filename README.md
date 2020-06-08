@@ -14,7 +14,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-
+Shows the latest release version right next to the name on a GitHub repository page.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
