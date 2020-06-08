@@ -31,6 +31,7 @@
   },
   "baseConfig": {
     "name": "web-extension",
-    "startUrl": "https://github.com/dword-design/base"
+    "startUrl": "https://github.com/dword-design/base",
+    "chromeExtensionId": "djbgjlkjdleiildkhifjbdehhlpkifnk"
   }
 }
