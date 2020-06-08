@@ -974,8 +974,8 @@
     output-files "^1.1.16"
     raw-loader "^4.0.1"
     sass-loader "^8.0.2"
-    semantic-release-chrome dword-design/semantic-release-chrome#fork
-    webext-webpack-plugin dword-design/webext-webpack-plugin#fork
+    semantic-release-chrome "github:dword-design/semantic-release-chrome#fork"
+    webext-webpack-plugin "github:dword-design/webext-webpack-plugin#fork"
     webextension-polyfill "^0.6.0"
     webpack "^4.41.2"
     webpack-cli "^3.3.10"
@@ -1000,7 +1000,7 @@
     commitizen "^4.0.3"
     constant-case "^3.0.3"
     cz-conventional-changelog "^3.1.0"
-    depcheck dword-design/depcheck#fork
+    depcheck "github:dword-design/depcheck#fork"
     execa "^4.0.0"
     expect "^25.1.0"
     find-up "^4.1.0"
@@ -1022,7 +1022,7 @@
     resolve-cwd "^3.0.0"
     resolve-from "^5.0.0"
     safe-readfile "^1.0.2"
-    safe-require dword-design/node-safe-require#fork
+    safe-require "github:dword-design/node-safe-require#fork"
     semantic-release "^17.0.3"
     sort-package-json "^1.39.1"
     spdx-expression-parse "^3.0.0"
@@ -1048,7 +1048,7 @@
     "@dword-design/babel-config" "^1.0.10"
     "@dword-design/depcheck-execa-detector" "^1.0.0"
     "@dword-design/get-depcheck-babel-parser" "^1.0.0"
-    depcheck dword-design/depcheck#fork
+    depcheck "github:dword-design/depcheck#fork"
 
 "@dword-design/depcheck-execa-detector@^1.0.0":
   version "1.0.1"
@@ -1069,15 +1069,15 @@
     better-node-env "^1.0.3"
     eslint-config-airbnb-base "^14.1.0"
     eslint-config-prettier "^6.11.0"
-    eslint-plugin-import dword-design/eslint-plugin-import#fork
+    eslint-plugin-import "github:dword-design/eslint-plugin-import#fork"
     eslint-plugin-json-format "^2.0.1"
     eslint-plugin-prefer-arrow "^1.1.6"
     eslint-plugin-prettier "^3.1.3"
     eslint-plugin-promise "^4.2.1"
     eslint-plugin-vue "^6.1.2"
     get-package-name "^1.0.0"
-    prettier prettier/prettier#19545e049ea424273fb6d647eefd1787d998b333
-    safe-require dword-design/node-safe-require#fork
+    prettier "github:prettier/prettier#19545e049ea424273fb6d647eefd1787d998b333"
+    safe-require "github:dword-design/node-safe-require#fork"
     vue-eslint-parser "^7.0.0"
 
 "@dword-design/functions@^1.1.2":
@@ -1085,7 +1085,7 @@
   resolved "https://registry.yarnpkg.com/@dword-design/functions/-/functions-1.1.2.tgz#a0785964548eacc2809b75b7dc9f3b84a8566480"
   integrity sha512-20qJB41LEzZUZsh/kY93WpSaTzrij21P7o2Korhmo0uK01A4OYRNhkd3naWqUnz+aga3lg6sLF4rOWsm1x5y7g==
   dependencies:
-    endent dword-design/endent#fork
+    endent "github:dword-design/endent#fork"
     lodash "^4.17.15"
     p-is-promise "^3.0.0"
     tinycolor2 "^1.4.1"
@@ -3200,6 +3200,7 @@ ci-info@^2.0.0:
 
 ci-info@watson/ci-info#f43f6a1cefff47fb361c88cf4b943fdbcaafe540:
   version "2.0.0"
+  uid f43f6a1cefff47fb361c88cf4b943fdbcaafe540
   resolved "https://codeload.github.com/watson/ci-info/tar.gz/f43f6a1cefff47fb361c88cf4b943fdbcaafe540"
 
 cidr-regex@^2.0.10:
@@ -4030,6 +4031,7 @@ decompress-response@^3.3.0:
 
 dedent@0.7.0, dedent@dword-design/dedent#fork:
   version "0.7.0"
+  uid c8d46e5017d60504657c2d01b59082c0329a12a7
   resolved "https://codeload.github.com/dword-design/dedent/tar.gz/c8d46e5017d60504657c2d01b59082c0329a12a7"
   dependencies:
     babel-plugin-add-module-exports "^1.0.2"
@@ -4141,6 +4143,7 @@ delegates@^1.0.0:
 
 "depcheck@github:dword-design/depcheck#fork":
   version "0.0.1"
+  uid "8a9eb41006c2c6f9cbd79e4e68bf265e1c1df1dc"
   resolved "https://codeload.github.com/dword-design/depcheck/tar.gz/8a9eb41006c2c6f9cbd79e4e68bf265e1c1df1dc"
   dependencies:
     "@babel/parser" "^7.8.4"
@@ -4753,6 +4756,7 @@ eslint-module-utils@^2.4.1:
 
 "eslint-plugin-import@github:dword-design/eslint-plugin-import#fork":
   version "2.20.1"
+  uid "092878bcc1f9b7ef80ca755bfd77e13b15aa9ef3"
   resolved "https://codeload.github.com/dword-design/eslint-plugin-import/tar.gz/092878bcc1f9b7ef80ca755bfd77e13b15aa9ef3"
   dependencies:
     array-includes "^3.0.3"
@@ -9157,6 +9161,7 @@ npm@^6.10.3:
     cmd-shim "^3.0.3"
     columnify "~1.5.4"
     config-chain "^1.1.12"
+    debuglog "*"
     detect-indent "~5.0.0"
     detect-newline "^2.1.0"
     dezalgo "~1.0.3"
@@ -9171,6 +9176,7 @@ npm@^6.10.3:
     has-unicode "~2.0.1"
     hosted-git-info "^2.8.8"
     iferr "^1.0.2"
+    imurmurhash "*"
     infer-owner "^1.0.4"
     inflight "~1.0.6"
     inherits "^2.0.4"
@@ -9189,8 +9195,14 @@ npm@^6.10.3:
     libnpx "^10.2.2"
     lock-verify "^2.1.0"
     lockfile "^1.0.4"
+    lodash._baseindexof "*"
     lodash._baseuniq "~4.6.0"
+    lodash._bindcallback "*"
+    lodash._cacheindexof "*"
+    lodash._createcache "*"
+    lodash._getnative "*"
     lodash.clonedeep "~4.5.0"
+    lodash.restparam "*"
     lodash.union "~4.6.0"
     lodash.uniq "~4.5.0"
     lodash.without "~4.4.0"
@@ -10128,6 +10140,7 @@ prettier-linter-helpers@^1.0.0:
 
 "prettier@github:prettier/prettier#19545e049ea424273fb6d647eefd1787d998b333":
   version "2.1.0-dev"
+  uid "19545e049ea424273fb6d647eefd1787d998b333"
   resolved "https://codeload.github.com/prettier/prettier/tar.gz/19545e049ea424273fb6d647eefd1787d998b333"
   dependencies:
     "@angular/compiler" "9.0.5"
@@ -11125,6 +11138,7 @@ safe-regex@^1.1.0:
 
 "safe-require@github:dword-design/node-safe-require#fork":
   version "1.0.3"
+  uid "53682cf7aa25d784c6278f8ccbc9986ad0dd5f38"
   resolved "https://codeload.github.com/dword-design/node-safe-require/tar.gz/53682cf7aa25d784c6278f8ccbc9986ad0dd5f38"
 
 "safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
@@ -11186,6 +11200,7 @@ scss-tokenizer@^0.2.3:
 
 "semantic-release-chrome@github:dword-design/semantic-release-chrome#fork":
   version "0.0.0-development"
+  uid e7c5f0a41cf64b6d72c440ae9ac70c3ca216541e
   resolved "https://codeload.github.com/dword-design/semantic-release-chrome/tar.gz/e7c5f0a41cf64b6d72c440ae9ac70c3ca216541e"
   dependencies:
     "@semantic-release/error" "2.2.0"
@@ -13023,6 +13038,7 @@ web-ext@^4.2.0:
 
 "webext-webpack-plugin@github:dword-design/webext-webpack-plugin#fork":
   version "0.0.8"
+  uid ea8850fd3697ec57ae5bff4f4f2c551093ac97df
   resolved "https://codeload.github.com/dword-design/webext-webpack-plugin/tar.gz/ea8850fd3697ec57ae5bff4f4f2c551093ac97df"
   dependencies:
     web-ext "^4.2.0"
