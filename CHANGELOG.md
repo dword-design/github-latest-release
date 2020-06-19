@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dword-design/github-latest-release/compare/v1.0.0...v1.0.1) (2020-06-19)
+
+
+### Bug Fixes
+
+* trigger release ([ac9ef4b](https://github.com/dword-design/github-latest-release/commit/ac9ef4b3f2fea5bac382b110e6a81358239a38a6))
+
 # 1.0.0 (2020-06-08)
 
 
