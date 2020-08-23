@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/dword-design/github-latest-release/compare/v1.0.2...v1.0.3) (2020-08-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency axios to ^0.20.0 ([2839ac6](https://github.com/dword-design/github-latest-release/commit/2839ac651af379833ff8d12fde97adcab391ac34))
+
 ## [1.0.2](https://github.com/dword-design/github-latest-release/compare/v1.0.1...v1.0.2) (2020-07-04)
 
 
