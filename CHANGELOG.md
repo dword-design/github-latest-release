@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/dword-design/github-latest-release/compare/v1.0.3...v1.0.4) (2020-08-26)
+
+
+### Bug Fixes
+
+* fix base config name ([4be3dee](https://github.com/dword-design/github-latest-release/commit/4be3deeecf2a61236b41831023d6e3995dddd1de))
+
 ## [1.0.3](https://github.com/dword-design/github-latest-release/compare/v1.0.2...v1.0.3) (2020-08-23)
 
 
