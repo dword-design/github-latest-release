@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/dword-design/github-latest-release/compare/v1.0.4...v1.0.5) (2020-12-11)
+
+
+### Bug Fixes
+
+* upgrades ([cfd0760](https://github.com/dword-design/github-latest-release/commit/cfd0760541922e0ca1a68f814782c6fb57803962))
+
 ## [1.0.4](https://github.com/dword-design/github-latest-release/compare/v1.0.3...v1.0.4) (2020-08-26)
 
 

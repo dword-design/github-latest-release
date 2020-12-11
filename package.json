@@ -1,6 +1,6 @@
 {
   "name": "@dword-design/github-latest-release",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Shows the latest release version right next to the name on a GitHub repository page.",
   "repository": "dword-design/github-latest-release",
   "license": "MIT",
