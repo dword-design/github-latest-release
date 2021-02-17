@@ -1,3 +1,12 @@
+## [1.0.7](https://github.com/dword-design/github-latest-release/compare/v1.0.6...v1.0.7) (2021-02-17)
+
+
+### Bug Fixes
+
+* readd icon ([16b0163](https://github.com/dword-design/github-latest-release/commit/16b01637b989b3937c2f45f3d19905bb1000f390))
+* remove icon ([b74d829](https://github.com/dword-design/github-latest-release/commit/b74d829e94a143f386137ddd69c59ca10f867cab))
+* upgrades ([08f6d36](https://github.com/dword-design/github-latest-release/commit/08f6d36e7f2bbcb418a459fef63ff91ef8a223eb))
+
 ## [1.0.6](https://github.com/dword-design/github-latest-release/compare/v1.0.5...v1.0.6) (2020-12-11)
 
 
