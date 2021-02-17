@@ -3,6 +3,19 @@
 
 ### Bug Fixes
 
+* add icon ([8571e29](https://github.com/dword-design/github-latest-release/commit/8571e29c0d40ac4482a79ef0c60540f96bee5fa5))
+* add icon ([6424178](https://github.com/dword-design/github-latest-release/commit/6424178421c4e4bdf5196c5dbb036eddd5af38bc))
+* readd icon ([16b0163](https://github.com/dword-design/github-latest-release/commit/16b01637b989b3937c2f45f3d19905bb1000f390))
+* remove icon ([b25b245](https://github.com/dword-design/github-latest-release/commit/b25b245806d5f05b87de0eecd6eac247c8744884))
+* remove icon ([59ba244](https://github.com/dword-design/github-latest-release/commit/59ba244e2a7758e156ca9ca62d8c437c164da724))
+* remove icon ([b74d829](https://github.com/dword-design/github-latest-release/commit/b74d829e94a143f386137ddd69c59ca10f867cab))
+* upgrades ([08f6d36](https://github.com/dword-design/github-latest-release/commit/08f6d36e7f2bbcb418a459fef63ff91ef8a223eb))
+
+## [1.0.7](https://github.com/dword-design/github-latest-release/compare/v1.0.6...v1.0.7) (2021-02-17)
+
+
+### Bug Fixes
+
 * add icon ([6424178](https://github.com/dword-design/github-latest-release/commit/6424178421c4e4bdf5196c5dbb036eddd5af38bc))
 * readd icon ([16b0163](https://github.com/dword-design/github-latest-release/commit/16b01637b989b3937c2f45f3d19905bb1000f390))
 * remove icon ([59ba244](https://github.com/dword-design/github-latest-release/commit/59ba244e2a7758e156ca9ca62d8c437c164da724))
