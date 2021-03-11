@@ -1,5 +1,5 @@
 {
-  "name": "@dword-design/github-latest-release",
+  "name": "github-latest-release",
   "version": "1.0.8",
   "description": "Shows the latest release version right next to the name on a GitHub repository page.",
   "repository": "dword-design/github-latest-release",
