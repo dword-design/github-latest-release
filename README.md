@@ -1,5 +1,5 @@
 <!-- TITLE/ -->
-# @dword-design/github-latest-release
+# github-latest-release
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
