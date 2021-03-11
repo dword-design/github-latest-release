@@ -1,3 +1,11 @@
+## [1.0.9](https://github.com/dword-design/github-latest-release/compare/v1.0.8...v1.0.9) (2021-03-11)
+
+
+### Bug Fixes
+
+* update changed files ([ad07975](https://github.com/dword-design/github-latest-release/commit/ad07975f2e3869a68d731036f6443a56e186823e))
+* update name ([f1c8a11](https://github.com/dword-design/github-latest-release/commit/f1c8a110a80b9f0ad107ae0fa0787fef9681550e))
+
 ## [1.0.8](https://github.com/dword-design/github-latest-release/compare/v1.0.7...v1.0.8) (2021-03-09)
 
 
