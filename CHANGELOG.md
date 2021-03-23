@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/dword-design/github-latest-release/compare/v1.0.11...v1.0.12) (2021-03-23)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v3 ([#13](https://github.com/dword-design/github-latest-release/issues/13)) ([c5cc02d](https://github.com/dword-design/github-latest-release/commit/c5cc02df4758fe0e60e5707c2947f87ef17d1144))
+
 ## [1.0.11](https://github.com/dword-design/github-latest-release/compare/v1.0.10...v1.0.11) (2021-03-22)
 
 
