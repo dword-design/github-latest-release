@@ -5,18 +5,24 @@ import axios from 'axios'
 import { TOKEN_KEY } from './model/constants'
 
 const token = localStorage.getItem(TOKEN_KEY)
+
 const github = axios.create({ baseURL: 'https://api.github.com' })
+
 const run = async () => {
   const $headline = document.querySelector('h1')
   if (!$headline) {
     return
   }
+
   const $author = $headline.querySelector('[itemprop=author]')
+
   const $name = $headline.querySelector('[itemprop=name]')
   if (!$author || !$name) {
     return
   }
+
   const author = $author.innerText
+
   const name = $name.innerText
   try {
     const latestRelease =
