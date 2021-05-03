@@ -25,8 +25,11 @@
     "axios": "^0.21.0"
   },
   "devDependencies": {
-    "@dword-design/base": "^7.0.0",
+    "@dword-design/base": "^8.0.0",
     "@dword-design/base-config-web-extension": "^1.6.1"
+  },
+  "engines": {
+    "node": ">=12"
   },
   "publishConfig": {
     "access": "public"
