@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/dword-design/github-latest-release/compare/v1.0.14...v1.0.15) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#24](https://github.com/dword-design/github-latest-release/issues/24)) ([31f56a8](https://github.com/dword-design/github-latest-release/commit/31f56a86424a91de5322b1eab0d5dc79d99db3de))
+
 ## [1.0.14](https://github.com/dword-design/github-latest-release/compare/v1.0.13...v1.0.14) (2021-04-12)
 
 
