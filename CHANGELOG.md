@@ -1,3 +1,10 @@
+## [1.0.17](https://github.com/dword-design/github-latest-release/compare/v1.0.16...v1.0.17) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4 ([#25](https://github.com/dword-design/github-latest-release/issues/25)) ([b8898f0](https://github.com/dword-design/github-latest-release/commit/b8898f02bcd183725655261943a49246516d8e4e))
+
 ## [1.0.16](https://github.com/dword-design/github-latest-release/compare/v1.0.15...v1.0.16) (2021-05-04)
 
 

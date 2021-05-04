@@ -1,6 +1,6 @@
 {
   "name": "github-latest-release",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Shows the latest release version right next to the name on a GitHub repository page.",
   "repository": "dword-design/github-latest-release",
   "funding": "https://www.buymeacoffee.com/dword",
