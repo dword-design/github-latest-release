@@ -1,3 +1,10 @@
+## [1.0.19](https://github.com/dword-design/github-latest-release/compare/v1.0.18...v1.0.19) (2021-06-14)
+
+
+### Bug Fixes
+
+* update config files ([a15df2b](https://github.com/dword-design/github-latest-release/commit/a15df2b33ff74ccb241e0966a5f7f91dc2f08182))
+
 ## [1.0.18](https://github.com/dword-design/github-latest-release/compare/v1.0.17...v1.0.18) (2021-05-28)
 
 
