@@ -1,3 +1,10 @@
+## [1.0.21](https://github.com/dword-design/github-latest-release/compare/v1.0.20...v1.0.21) (2021-06-27)
+
+
+### Bug Fixes
+
+* tests ([#33](https://github.com/dword-design/github-latest-release/issues/33)) ([10f9477](https://github.com/dword-design/github-latest-release/commit/10f9477ef3b2050b311d6b0db92db4dd1cc86090))
+
 ## [1.0.20](https://github.com/dword-design/github-latest-release/compare/v1.0.19...v1.0.20) (2021-06-21)
 
 
