@@ -37,13 +37,7 @@ const run = async () => {
     }
     $latestRelease = document.createElement('span')
     $latestRelease.innerText = latestRelease
-    $latestRelease.classList.add(
-      'github-latest-release',
-      'f5',
-      'flex-self-stretch',
-      'mr-2'
-    )
-    $latestRelease.style.lineHeight = 2.1
+    $latestRelease.classList.add('github-latest-release', 'Label')
     $headline.append($latestRelease)
   } catch (error) {
     handleError(error, {
