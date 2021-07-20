@@ -1,3 +1,11 @@
+## [1.0.26](https://github.com/dword-design/github-latest-release/compare/v1.0.25...v1.0.26) (2021-07-20)
+
+
+### Bug Fixes
+
+* lock file maintenance ([aa1d64f](https://github.com/dword-design/github-latest-release/commit/aa1d64f98f725b3e85eb3a039a3167e7014b9ef0))
+* update config files ([aa52e36](https://github.com/dword-design/github-latest-release/commit/aa52e36384f4bc14a90076c57e9ff344217f4d58))
+
 ## [1.0.25](https://github.com/dword-design/github-latest-release/compare/v1.0.24...v1.0.25) (2021-07-19)
 
 
