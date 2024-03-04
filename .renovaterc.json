@@ -3,9 +3,9 @@
     ":semanticCommits",
     ":semanticPrefixFix"
   ],
-  "ignorePaths": [
-    ".github/workflows/build.yml"
-  ],
+  "github-actions": {
+    "enabled": false
+  },
   "labels": [
     "maintenance"
   ],
@@ -13,14 +13,17 @@
     "automerge": true,
     "enabled": true
   },
-  "packageRules": [
+  "rangeStrategy": "replace",
+  "regexManagers": [
     {
-      "automerge": true,
-      "matchCurrentVersion": ">=1.0.0",
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ]
+      "datasourceTemplate": "github-tags",
+      "fileMatch": [
+        "\\.js$"
+      ],
+      "matchStrings": [
+        "(^|\\s)gitHubAction`(?<depName>.*?)@v(?<currentValue>.*?)`"
+      ],
+      "versioningTemplate": "npm"
     }
   ],
   "semanticCommitScope": null
