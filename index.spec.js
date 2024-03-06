@@ -29,11 +29,13 @@ export default tester(
   [
     { before: () => execaCommand('base prepublishOnly') },
     testerPluginPuppeteer({
-      args: [
-        `--load-extension=${P.join(process.cwd(), 'dist', 'chrome')}`,
-        `--disable-extensions-except=${P.join(process.cwd(), 'dist', 'chrome')}`,
-      ],
-      headless: false,
+      launchOptions: {
+        args: [
+          `--load-extension=${P.join(process.cwd(), 'dist', 'chrome')}`,
+          `--disable-extensions-except=${P.join(process.cwd(), 'dist', 'chrome')}`,
+        ],
+        headless: false,
+      },
     }),
   ],
 )
