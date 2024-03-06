@@ -17,13 +17,13 @@
     ".releaserc.json": true,
     ".renovaterc.json": true,
     ".vscode": true,
-    "vite.config.js": true,
     "CHANGELOG.md": true,
     "LICENSE.md": true,
     "babel.config.json": true,
     "coverage": true,
     "dist": true,
     "node_modules": true,
+    "vite.config.js": true,
     "yarn.lock": true
   },
   "workbench.editor.enablePreview": false
