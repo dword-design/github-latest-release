@@ -1,0 +1,6 @@
+{
+  "name": "@dword-design/web-extension",
+  "startUrl": "https://github.com/dword-design/base",
+  "chromeExtensionId": "djbgjlkjdleiildkhifjbdehhlpkifnk",
+  "testInContainer": true
+}

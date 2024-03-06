@@ -3,7 +3,7 @@
   "matches": [
     "https://github.com/*"
   ],
-  "permissions": [
+  "host_permissions": [
     "https://api.github.com/*"
   ]
 }
