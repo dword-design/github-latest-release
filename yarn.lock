@@ -1292,9 +1292,9 @@
     micromatch "^4.0.2"
 
 "@dword-design/base-config-web-extension@^3.0.0":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@dword-design/base-config-web-extension/-/base-config-web-extension-3.0.5.tgz#8b4cd7fe49d1ab5534d66cda261239fd21647ea7"
-  integrity sha512-MbK1s+sLLAyriHgZh55GA+w5s5m/HnYDcYC3W1QGZCU+VWR/HYnbCW9WYE3fOQoJWUfLj6nYggWpD6rA7dNBPQ==
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@dword-design/base-config-web-extension/-/base-config-web-extension-3.0.6.tgz#9712f6f8ab89b6cb04efb2f76ae2ca08782b0fe7"
+  integrity sha512-6ki03NhITAoy1Mz4JqIAsSn/72oxTc5Sbowz7LqOR7WUwsqm7yIXPaAVe/EX/xS1adqO16AjE52+lrR2UGK1KA==
   dependencies:
     "@dword-design/depcheck-parser-sass" "^4.0.4"
     "@dword-design/eslint-config" "^5.0.1"
