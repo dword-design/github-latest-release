@@ -35,6 +35,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         name: Push changed files
         run: yarn dw-ci push-changed-files
+      - if: github.ref == 'refs/heads/master'
+        run: yarn prepublishOnly
+      - if: github.ref == 'refs/heads/master'
+        run: yarn prepublishOnly firefox
+      - if: github.ref == 'refs/heads/master'
+        run: zip -r ../chrome.zip .
+        working-directory: dist/chrome
+      - if: github.ref == 'refs/heads/master'
+        run: zip -r ../firefox.zip .
+        working-directory: dist/firefox
+      - if: github.ref == 'refs/heads/master'
+        run: git archive --output=dist/firefox-sources.zip HEAD
       - env:
           CHROME_CLIENT_ID: ${{ secrets.CHROME_CLIENT_ID }}
           CHROME_CLIENT_SECRET: ${{ secrets.CHROME_CLIENT_SECRET }}
