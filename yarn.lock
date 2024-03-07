@@ -1316,9 +1316,9 @@
     vue "^3.4.21"
 
 "@dword-design/base@^11.0.0":
-  version "11.0.10"
-  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-11.0.10.tgz#8c17716811c724d1355945246e0b40540a58e5cb"
-  integrity sha512-nnXqesnc1m3tZICMuvIhl2qrz2F67BjOxU+vpiCtA+Wo2iFe4ZOX3MkU4bNH3ZpNDKpZge5MSPKpU27AAPZQug==
+  version "11.0.11"
+  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-11.0.11.tgz#7ebfbc89438ac70b9d86397c8a3a6600f0e77674"
+  integrity sha512-9clUpbbrg0m0XiyluuY5pFLaxJx/rkhrwUi5b+t6kN+6v1upzSue8OZv69mWNdA855UX3f/WHLSAzUfznpsHAQ==
   dependencies:
     "@commitlint/cli" "^18.4.4"
     "@commitlint/config-conventional" "^18.4.4"
@@ -8385,7 +8385,14 @@ load-json-file@^4.0.0:
     pify "^3.0.0"
     strip-bom "^3.0.0"
 
-load-pkg@^4.0.0, "load-pkg@npm:@dword-design/load-pkg":
+load-pkg@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/load-pkg/-/load-pkg-4.0.0.tgz#f80a29aec2f6d02aadde714099fda4eea1b611f1"
+  integrity sha512-xS6uYdbUzHbwO5bExhtM8RsU6Z/fVEfZE4uZpWQOwVygLSUfXz7J97nGzJfZ+FFCZc0Weabn/wA3y1k9Q7Y4mw==
+  dependencies:
+    find-pkg "^2.0.0"
+
+"load-pkg@npm:@dword-design/load-pkg":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@dword-design/load-pkg/-/load-pkg-4.0.0.tgz#201f76adeb44c64ed22d789591ab740573fe0a5b"
   integrity sha512-lZxKRusgIqSg2y4jLzZzMPWyhrGPGke3YYmAxj4SoJeUGV4CmvYyhJkJnfA7Yaov7GMXZi64nlhx8D809VDazg==
