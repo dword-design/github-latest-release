@@ -1,3 +1,10 @@
+## [1.0.32](https://github.com/dword-design/github-latest-release/compare/v1.0.31...v1.0.32) (2024-03-07)
+
+
+### Bug Fixes
+
+* trigger release ([554936b](https://github.com/dword-design/github-latest-release/commit/554936b7661d69ad5316de243cdb15e3117bb26a))
+
 ## [1.0.31](https://github.com/dword-design/github-latest-release/compare/v1.0.30...v1.0.31) (2024-03-07)
 
 
