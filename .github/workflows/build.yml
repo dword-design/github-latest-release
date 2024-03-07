@@ -37,7 +37,9 @@ jobs:
         run: yarn dw-ci push-changed-files
       - if: github.ref == 'refs/heads/master'
         run: yarn prepublishOnly
-      - if: github.ref == 'refs/heads/master'
+      - env:
+          FIREFOX_EXTENSION_ID: ${{ secrets.FIREFOX_EXTENSION_ID }}
+        if: github.ref == 'refs/heads/master'
         run: yarn prepublishOnly firefox
       - if: github.ref == 'refs/heads/master'
         run: zip -r ../chrome.zip .
