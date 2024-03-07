@@ -1,3 +1,23 @@
+## [1.0.28](https://github.com/dword-design/github-latest-release/compare/v1.0.27...v1.0.28) (2024-03-07)
+
+
+### Bug Fixes
+
+* foo ([8b33bf1](https://github.com/dword-design/github-latest-release/commit/8b33bf143fd68ee80172bb1bb75d722dbff56944))
+* foo ([312f0f0](https://github.com/dword-design/github-latest-release/commit/312f0f048fae280732eb012f57ca56293661d73c))
+* foo ([b013009](https://github.com/dword-design/github-latest-release/commit/b013009f6ef10f12d9d3cb807a0b3fdc9b2ce5b7))
+* foo ([bb248ce](https://github.com/dword-design/github-latest-release/commit/bb248cee226fb25eba31af5684ca06d97f3787fa))
+* foo ([d67389c](https://github.com/dword-design/github-latest-release/commit/d67389ce4f5d0913f98db1ec60174169f0dd8512))
+* foo ([4db4c1a](https://github.com/dword-design/github-latest-release/commit/4db4c1a3ecf0ae37362e1fecfa562474aa8a4ba9))
+* foo ([8809394](https://github.com/dword-design/github-latest-release/commit/88093942178ae6af891044ea230a522fbaedf5a8))
+* foo ([b9ed704](https://github.com/dword-design/github-latest-release/commit/b9ed704fcb1a204cf654df8f4e7622b7291d66a3))
+* foo ([c9fbd7b](https://github.com/dword-design/github-latest-release/commit/c9fbd7bbb2fdd4f2fb387c41da17ed7309bdaba1))
+* foo ([b1eb61f](https://github.com/dword-design/github-latest-release/commit/b1eb61f95aabdb7c67b243e1837cc5d385366563))
+* lock file maintenance ([#40](https://github.com/dword-design/github-latest-release/issues/40)) ([9e76971](https://github.com/dword-design/github-latest-release/commit/9e76971c4cc481abfa6c89ff5f831dd3a82f401e))
+* trigger release ([6698a91](https://github.com/dword-design/github-latest-release/commit/6698a9103f873ac95069707d99affcbe7ee5eab5))
+* trigger release ([93c6418](https://github.com/dword-design/github-latest-release/commit/93c64188742e7ef1e710b45931a49fbe20527c82))
+* trigger release ([a83c092](https://github.com/dword-design/github-latest-release/commit/a83c0923b246026b11c37ca960cba1c2c52bd68d))
+
 ## [1.0.27](https://github.com/dword-design/github-latest-release/compare/v1.0.26...v1.0.27) (2021-08-09)
 
 
