@@ -1,3 +1,10 @@
+## [1.0.30](https://github.com/dword-design/github-latest-release/compare/v1.0.29...v1.0.30) (2024-03-07)
+
+
+### Bug Fixes
+
+* foo ([b8d9823](https://github.com/dword-design/github-latest-release/commit/b8d98234fab396eab837d592fb05557823c03da5))
+
 ## [1.0.29](https://github.com/dword-design/github-latest-release/compare/v1.0.28...v1.0.29) (2024-03-07)
 
 
