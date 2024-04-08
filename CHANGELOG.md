@@ -1,3 +1,10 @@
+## [1.0.40](https://github.com/dword-design/github-latest-release/compare/v1.0.39...v1.0.40) (2024-04-08)
+
+
+### Bug Fixes
+
+* lock file maintenance ([333a1d8](https://github.com/dword-design/github-latest-release/commit/333a1d86668e7da7932574a5718fec91be2001bf))
+
 ## [1.0.39](https://github.com/dword-design/github-latest-release/compare/v1.0.38...v1.0.39) (2024-04-08)
 
 
