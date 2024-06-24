@@ -1,1 +1,1 @@
-export const TOKEN_KEY = 'github-latest-release-token'
+export const TOKEN_KEY = 'github-latest-release-token';
