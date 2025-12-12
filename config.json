@@ -1,9 +1,0 @@
-{
-  "name": "GitHub Latest Release",
-  "matches": [
-    "https://github.com/*"
-  ],
-  "host_permissions": [
-    "https://api.github.com/*"
-  ]
-}

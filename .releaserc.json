@@ -29,7 +29,7 @@
     [
       "@semantic-release/exec",
       {
-        "publishCmd": "yarn publish-extension --chrome-zip=dist/chrome.zip --firefox-zip=dist/firefox.zip --firefox-sources-zip=dist/firefox-sources.zip"
+        "publishCmd": "pnpm wxt submit --chrome-zip dist/*-chrome.zip --firefox-zip dist/*-firefox.zip --firefox-sources-zip dist/*-sources.zip"
       }
     ]
   ]
