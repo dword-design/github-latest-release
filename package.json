@@ -26,12 +26,13 @@
   },
   "dependencies": {
     "@dword-design/github-web-extension-utils": "^4.0.0",
-    "axios": "^1"
+    "@wxt-dev/auto-icons": "^1.1.0",
+    "axios": "^1.13.2"
   },
   "devDependencies": {
-    "@dword-design/base": "^16",
-    "@dword-design/base-config-web-extension": "^5.0.2",
-    "@dword-design/playwright-fixture-web-extension": "^1.0.0",
+    "@dword-design/base": "^16.1.4",
+    "@dword-design/base-config-web-extension": "^5.1.0",
+    "@dword-design/playwright-fixture-web-extension": "^1.1.0",
     "@playwright/browser-chromium": "^1.57.0",
     "@playwright/test": "^1.57.0",
     "execa": "^9.6.1"
