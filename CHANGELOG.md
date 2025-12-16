@@ -1,3 +1,11 @@
+## [1.0.56](https://github.com/dword-design/github-latest-release/compare/v1.0.55...v1.0.56) (2025-12-16)
+
+
+### Bug Fixes
+
+* fix tests ([38cb8be](https://github.com/dword-design/github-latest-release/commit/38cb8bed4e4b7fc185071e5b2ecb8e46ee389c29))
+* lock file maintenance ([#93](https://github.com/dword-design/github-latest-release/issues/93)) ([ce02da2](https://github.com/dword-design/github-latest-release/commit/ce02da233d28d68d756ba2b37624fa38d618bed1))
+
 ## [1.0.55](https://github.com/dword-design/github-latest-release/compare/v1.0.54...v1.0.55) (2025-12-12)
 
 
