@@ -1,5 +1,5 @@
 import { handleError } from '@dword-design/github-web-extension-utils';
-import axios from 'axios';
+import axios, { AxiosError } from 'axios';
 
 export default defineContentScript({
   main: async () => {
@@ -18,12 +18,6 @@ export default defineContentScript({
     const [author, name] = scopedName.split('/');
 
     try {
-      const {
-        data: { tag_name: latestRelease },
-      } = await github.get(`/repos/${author}/${name}/releases/latest`, {
-        ...(token && { headers: { Authorization: `token ${token}` } }),
-      });
-
       const headline =
         document.querySelector('[itemprop=name]')!.parentElement!;
 
@@ -35,11 +29,32 @@ export default defineContentScript({
         latestReleaseSpan.remove();
       }
 
+      const {
+        data: { tag_name: latestRelease },
+      } = await github
+        .get(`/repos/${author}/${name}/releases/latest`, {
+          ...(token && { headers: { Authorization: `token ${token}` } }),
+        })
+        .catch(error => {
+          if (error instanceof AxiosError && error.response?.status === 404) {
+            return { data: { tag_name: null } };
+          }
+
+          throw error;
+        });
+
       latestReleaseSpan = document.createElement('span');
-      latestReleaseSpan.textContent = latestRelease;
-      latestReleaseSpan.classList.add('github-latest-release', 'Label');
+      latestReleaseSpan.classList.add('github-latest-release');
+
+      if (latestRelease) {
+        latestReleaseSpan.textContent = latestRelease;
+        latestReleaseSpan.classList.add('Label');
+      }
+
       headline.append(latestReleaseSpan);
     } catch (error) {
+      console.log('foo');
+
       handleError(error, {
         name: 'GitHub Latest Release',
         slug: 'github-latest-release',
